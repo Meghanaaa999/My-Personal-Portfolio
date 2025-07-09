@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="myself.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Meghana. I enjoy creating dynamic websites and learning new technologies.</p>
+        <img src="img.jpeg" width="200" height="200" alt="Meghana's Photo">
+        <br>
+        <p>Here are some of my skills:</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Php</li>
+            <li>Sql</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Project Name</th>
+                    <th>Description</th>
+                    <th>Technologies Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portfolio Website</td>
+                    <td>A personal portfolio to showcase my work.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+                <tr> 
+                    <td>The Better Life for Women</td>
+                    <td>An all-in-one web app supporting women’s safety, wellness, and growth.</td>
+                    <td>HTML, CSS, JavaScript, PHP, SQL</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/meghana-arthimalla-8187a4289" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <!-- Link to JS -->
+    <script src="myself.js"></script>
+</body>
+</html>

@@ -1,0 +1,165 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #2c2c2c;
+  line-height: 1.6;
+  padding-bottom: 60px;
+}
+
+/* Header */
+header {
+  background-color: #5c6ac4; /* soft indigo */
+  color: #fff;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h2 {
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 12px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+nav ul li a:hover {
+  opacity: 0.8;
+}
+
+/* Section base */
+section {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+section h3, section h2 {
+  font-size: 1.8em;
+  color: #4a4e69;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about p {
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 10px 0;
+}
+
+/* Skills list */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Projects Table */
+#projects table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#projects th,
+#projects td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#projects th {
+  background-color: #dcd6f7; /* subtle purple */
+  color: #333;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  background-color: #fafafa;
+}
+
+form button {
+  width: fit-content;
+  padding: 10px 25px;
+  background-color: #5c6ac4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #4a5ab3;
+}
+
+/* Footer */
+footer {
+  background-color: #e0dfff;
+  color: #333;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer a {
+  color: #5c6ac4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
