@@ -20,7 +20,8 @@ This is a responsive and interactive personal portfolio website built using HTML
 2. Open `myself.html` in any web browser  
 3. No server required – it's a static site
 
-## Contact
-Meghana Arthimalla   
-🔗[LinkedIn](https://www.linkedin.com/in/meghana-arthimalla-8187a4289)
+## 📧 Contact
+- Meghana Arthimalla
+- Email:arthimalla.meghana@gmail.com
+
 
